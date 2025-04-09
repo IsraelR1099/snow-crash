@@ -6,6 +6,7 @@ for i in $(seq -w 0 14); do
 
 	mkdir -p "$dir/resources"
 	touch "$dir/resources/README.md"
+	touch "$dir/resources/NOTES.md"
 	touch "$dir/flag"
 done
 
